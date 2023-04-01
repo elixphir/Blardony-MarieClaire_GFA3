@@ -1,0 +1,26 @@
+body {
+    background-image: url(images/backgroundimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#content {
+    padding: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.35);
+}
+#clue1, #clue2, #clue3{
+    display: inline-block;
+    margin: 5px;
+    padding: 25px;
+    border: solid black 1px;
+    border-radius: 15px;
+}
