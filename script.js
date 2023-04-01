@@ -1,6 +1,6 @@
-var num1 = parseInt(Math.ceil(Math.random() * 20));
-var num2 = parseInt(Math.ceil(Math.random() * 20));
-var num3 = parseInt(Math.ceil(Math.random() * 20));
+var num1 = parseInt(Math.round(Math.random() * 20));
+var num2 = parseInt(Math.round(Math.random() * 20));
+var num3 = parseInt(Math.round(Math.random() * 20));
 
 document.getElementById("num1").innerHTML = num1 + " meters";
 document.getElementById("num2").innerHTML = num2 + " meters";
